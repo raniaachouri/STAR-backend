@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data / DB / logs
+*.db
+*.sqlite3
+*.log
+
+# Env / OS
+.env
+.DS_Store
+
+# Project-specific
+extractify-react/    # keep FE out of this repo
+page.png             # optional: generated asset
+

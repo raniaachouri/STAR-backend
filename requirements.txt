@@ -1,0 +1,26 @@
+# Vision-language model & Transformers
+transformers>=4.38.0
+torch>=2.0.0
+torchvision
+
+# Document understanding (OCR)
+python-doctr[torch]
+pdf2image
+pytesseract
+opencv-python
+Pillow
+
+# Web frameworks (optional, include if needed)
+streamlit
+fastapi
+uvicorn
+pyngrok
+
+# General
+numpy
+requests
+
+# ======================
+# (Optional) Hugging Face Xet for faster model download
+# ======================
+huggingface_hub[hf_xet]

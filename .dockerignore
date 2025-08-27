@@ -1,0 +1,22 @@
+# VCS
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# App data / heavy
+data/
+extractions.db
+reports/
+models/            # mount at runtime, don't send to build
+*.zip
+*.rar
+
+# Frontend
+extractify-react/node_modules
+extractify-react/dist
+**/node_modules
+**/dist
